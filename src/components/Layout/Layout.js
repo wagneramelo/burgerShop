@@ -14,7 +14,9 @@ class Layout extends Component {
     }
 
     handleOpenMenu = () => {
-        this.setState({showSideDrawer: !this.state.showSideDrawer});
+        this.setState((prevState) => {
+            return {showSideDrawer : prevState.showSideDrawer}
+        });
     }
 
     render() {
