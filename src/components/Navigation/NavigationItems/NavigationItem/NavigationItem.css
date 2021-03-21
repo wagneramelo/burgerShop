@@ -9,7 +9,6 @@
     color: #8F5C2C;
     text-decoration: none;
     width: 100%;
-    padding: 16px 10px;
     box-sizing: border-box;
     display: block;
 }
@@ -20,7 +19,7 @@
     color: #40A4C8;
 }
 
-@media (min-width: 500px){
+@media (min-width: 500px) {
     .NavigationItem {
         margin: 0;
         display: flex;
@@ -43,5 +42,4 @@
         border-bottom: 4px solid #40A4C8;
         color: white;
     }
-    
 }
